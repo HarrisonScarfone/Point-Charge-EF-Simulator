@@ -22,7 +22,7 @@ Draws a graph section of `600x600`.  User can then place point charges at specif
 
 When the field vectors need to be drawn, the graph is sectioned into squares dependant on the amount of vectors to be drawn, then the following steps are taken.
 
-1. Sum of forces from all point charges is taken at the center of that section using cylindrical coordinates that are converted to cartesian components for easy summing.
+1. Sum of forces from all point charges is taken at the center of that section using cylindrical coordinates that are converted to cartesian components.
 2. Unit vector of the resultant vector is taken.
 3. Color of the vector is determined by a net positive or net negative force at the point.
 4. Using the unit vector and color, vector of specified length is then drawn through the center of that box.
