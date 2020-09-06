@@ -2,6 +2,20 @@
 
 Standalone electric field simulator for point charges written in Python 3.8.2.  Uses `pysimplegui` for the interface.
 
+## Screenshot
+
+![Failed to load screenshot](/screenshot.png?raw=true "Point Charge Electric Field Simulator")
+
+## Requirements
+
+Requires `PySimpleGui`
+
+Install via `pip` with:
+
+```shell
+python3 -m pip install pysimplegui
+```
+
 ## Field Calculation
 
 Draws a graph section of `600x600`.  User can then place point charges at specified points based on a cartesian coordinate system with the very center of the graph being the point `(0,0)`.
